@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      color: pink;
+      padding: 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(255, 192, 203, 0.3);
+    }
+    .header-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid pink;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.header-img:hover {
+  transform: scale(1.1);
+}
+
+.nav-links a {
+  color: pink;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: hotpink;
+}
+
+
+    main {
+      padding: 100px 20px 60px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section.project {
+      margin-bottom: 60px;
+      border: 1px solid pink;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #1a1a1a;
+    }
+
+    section.project h2 {
+      color: pink;
+      margin-bottom: 10px;
+    }
+
+    .media-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .media-gallery a {
+      display: block;
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .media-gallery img,
+    .media-gallery video {
+      width: 100%;
+      border: 2px solid pink;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .media-gallery img:hover,
+    .media-gallery video:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #111;
+      color: pink;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+
+    @media (min-width: 600px) {
+      .media-gallery a {
+        width: calc(50% - 15px);
+      }
+    }
+
+    @media (min-width: 900px) {
+      .media-gallery a {
+        width: calc(33.333% - 15px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+ <header>
+  <div class="header-content">
+    <a href="images/headerpicture.jpg" target="_blank">
+      <img src="images/headerpicture.jpg" alt="Header Image" class="header-img">
+    </a>
+        <h1>My Project Portfolio</h1>
+    <nav class="nav-links">
+      <a href="#Mental-health">Mental Health</a>
+      <a href="#Customer Retention">Customer Risk</a>
+      <a href="#Annual-sales">Sales Report</a>
+      <a href="#Call-Center Report">Call Center</a>
+            <a href="#Executive Analysis">Executive Analysis</a>
+      <a href="#Renumeration">Renumeration</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+<section class="project" id="Mental-health">
+      <h2>MENTAL HEALTH ANALYSIS AND THE RELATIVE EFFECT ON GENDER DIFFERENCES</h2>
+      <p>Description of the project goes here. You can explain what it does, tools used, challenges faced, etc.</p>
+      <div class="media-gallery">
+        <a href="images/mental health2.PNG" target="_blank">
+          <img src="images/mental health2.PNG" alt="Project Screenshot 1">
+        </a>
+        <a href="images/mental heath 1.png" target="_blank">
+          <img src="images/mental heath 1.png" alt="Project Screenshot 2">
+        </a>
+        <a href="images/mental health report.jpg" target="_blank">
+          <img src="images/mental health report.jpg" alt="Project Screenshot 2">
+        </a>
+        <a href="images/Recording 2025-05-11 031633.mp4" target="_blank">
+          <video controls>
+            <source src="images/Recording 2025-05-11 031633.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </a>
+      </div>
+    </section>
+
+<section class="project" id="Customer Retention">
+      <h2>CUSTOMER  RETENTION AND RISK ANALYSIS</h2>
+      <p>Another description of a different project. Share unique aspects and accomplishments here.</p>
+      <div class="media-gallery">
+        <a href="images/Customers risk Analysis.PNG" target="_blank">
+          <img src="images/Customers risk Analysis.PNG" alt="Project Screenshot 3">
+        </a>
+
+         <a href="images/Churn Dashboard.PNG" target="_blank">
+          <img src="images/Churn Dashboard.PNG" alt="Project Screenshot 3">
+        </a>
+
+         <a href="images/diversity and inclusion.PNG" target="_blank">
+          <img src="images/diversity and inclusion.PNG" alt="Project Screenshot 3">
+        </a>
+
+        <a href="images/Recording 2025-05-12 002126.mp4" target="_blank">
+          <video controls>
+            <source src="images/Recording 2025-05-12 002126.mp4" type="video/mp4">
+          </video>
+        </a>
+      </div>
+    </section>
+
+<section class="project" id="Annual-sales">
+      <h2>ANNUEL SALES REPORT</h2>
+      <p>Another description of a different project. Share unique aspects and accomplishments here.</p>
+      <div class="media-gallery">
+        <a href="images/state & regional sales report.jpg" target="_blank">
+          <img src="images/state & regional sales report.jpg" alt="Project Screenshot 3">
+        </a>
+        <a href="images/Recording 2025-05-11 031633.mp4" target="_blank">
+          <video controls>
+            <source src="images/Recording 2025-05-11 031633.mp4" type="video/mp4">
+          </video>
+        </a>
+      </div>
+    </section>
+
+<section class="project" id="Call-Center Report">
+      <h2>CALL CENTER REPORT</h2>
+      <p>Another description of a different project. Share unique aspects and accomplishments here.</p>
+      <div class="media-gallery">
+        <a href="images/Screenshots 1/Screenshot 2025-03-08 004909.png" target="_blank">
+          <img src="images/Screenshots 1/Screenshot 2025-03-08 004909.png" alt="Project Screenshot 3">
+        </a>
+        <a href="images/PWC RECOR.mp4" target="_blank">
+          <video controls>
+            <source src="images/PWC RECOR.mp4" type="video/mp4">
+          </video>
+        </a>
+      </div>
+    </section>
+
+<section class="project" id="Executive Analysis">
+      <h2>EXECUTIVE ANALYSIS</h2>
+      <p>Another description of a different project. Share unique aspects and accomplishments here.</p>
+      <div class="media-gallery">
+        <a href="images/Screenshots 1/Screenshot 2025-05-12 002621.png"target="_blank">
+          <img src="images/Screenshots 1/Screenshot 2025-05-12 002621.png" alt="Project Screenshot 3">
+        </a>
+        <a href="images/Recording 2025-05-12 002557.mp4" target="_blank">
+          <video controls>
+            <source src="images/Recording 2025-05-12 002557.mp4" type="video/mp4">
+          </video>
+        </a>
+      </div>
+    </section>
+
+<section class="project" id="Renumeration">
+      <h2>RENUMERATION ANALYSIS</h2>
+      <p>Another description of a different project. Share unique aspects and accomplishments here.</p>
+      <div class="media-gallery">
+        <a href="images/Screenshots 1/gender pay analysis.png" target="_blank">
+          <img src="images/Screenshots 1/gender pay analysis.png" alt="Project Screenshot 3">
+        </a>
+        <a href="images/renumeration.mp4" target="_blank">
+          <video controls>
+            <source src="images/renumeration.mp4" type="video/mp4">
+          </video>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chioma Maureen Attah. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
