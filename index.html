@@ -15,16 +15,16 @@
         <img src="images/headerpicture.jpg" alt="Chioma's Photo" />
 
         <h1>Chioma Maureen Attah</h1>
-        <button class="menu-toggle" onclick="document.querySelector('nav').classList.toggle('active')">☰</button>
       </div>
-      <nav>
-        <button onclick="document.querySelector('.about').scrollIntoView({behavior: 'smooth'})">About</button>
-        <button onclick="document.querySelector('.skills').scrollIntoView({behavior: 'smooth'})">Skills</button>
-        <button onclick="document.querySelector('.projects').scrollIntoView({behavior: 'smooth'})">Projects</button>
-        <button onclick="document.querySelector('.certificates').scrollIntoView({behavior: 'smooth'})">Certifications</button>
-        <button onclick="document.querySelector('.cv').scrollIntoView({behavior: 'smooth'})">My CV</button>
-      </nav>
-    </div>
+   <nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+   <a href="#certificates">Certificates</a> 
+  <a href="#cv">CV</a> 
+  <a href="#contact">Contact</a>
+</nav>
+
   </header>
 
   <main>
@@ -48,10 +48,8 @@
         <div class="skill-bar"><span style="width: 80%">Excel - 80%</span></div>
         <div class="skill-bar"><span style="width: 75%">Python - 75%</span></div>
       </div>
-    <!-- </section>
-<section class="skills-section"> -->
-  <h2></h2>
-  <div class="soft-skills">
+  
+<section id="skills" class="section">...</section>
     <ul>
       <li>Effective Communication – Clear and professional verbal and written communication.</li>
       <li>Team Collaboration – Strong ability to work with others towards a shared goal.</li>
@@ -65,14 +63,14 @@
   </div>
 </section>
 
-  <section class="projects">
+<section id="projects" class="section">...</section>
       <h2>Projects</h2>
       <button onclick="window.open('dashboard.html', '_blank')">View Dashboard</button>
     </section>
 
 
    <!-- Certifications Section with toggles -->
-    <section class="certificates">
+<section id="certificates"class="section">...</section>
   <h2>Certifications</h2>
       <div class="certificates-grid">
         <div class="certificate-card"><a href="https://www.coursera.org/account/accomplishments/records/DS73389LUQD4" target="_blank">Data, Data, Everywhere - Coursera</a></div>
@@ -85,7 +83,7 @@
     </div>
     </section>
 
-    <section class="cv section">
+    <section id="cv"class="section">...</section>
       <h2>My CV</h2>
       <a href="images/Chioma Maureen Attahhh[1] data.pdf" target="_blank">Download My CV</a>
     </section>
