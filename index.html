@@ -7,50 +7,50 @@
     <link rel="stylesheet" href="css/style.css" />
       <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-</head>
 <body>
   <header>
     <div class="header-container">
       <div class="header-top">
         <img src="images/headerpicture.jpg" alt="Chioma's Photo" />
-
         <h1>Chioma Maureen Attah</h1>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
       </div>
-   <nav>
-  <a href="#about">About</a>
-  <a href="#skills">Skills</a>
-  <a href="#projects">Projects</a>
-   <a href="#certificates">Certificates</a> 
-  <a href="#cv">CV</a> 
-  <a href="#contact">Contact</a>
-</nav>
-
+      <nav id="nav-menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section class="about section">
+    <section id="about" class="about section">
       <div class="text">
         <h2>About Me</h2>
         <p>I am a results-driven Data Analyst with a passion for turning data into actionable insights. Known for my strong problem-solving skills and analytical thinking, I thrive in challenging environments where I can deliver measurable value through data storytelling and visualization. With proficiency in tools such as Excel, Power BI, SQL, and Python, I create dashboards and models that inform strategic decision-making.
         I constantly challenge myself to learn and grow, expanding my skillset into Software Engineering, where I have experience building responsive web applications and portfolios. In addition, I possess a solid background in Social Media Management, leveraging analytics to craft effective content strategies and improve engagement.
-        Whether it's uncovering patterns in large datasets, streamlining workflows, or leading digital projects, I bring dedication, precision, and creativity to everything I do.
-</p>
+        Whether it's uncovering patterns in large datasets, streamlining workflows, or leading digital projects, I bring dedication, precision, and creativity to everything I do.</p>
       </div>
       <img src="images/body image.jpg" alt="About Me Photo" />
     </section>
 
-    <section class="skills section">
+   <section id="skills" class="skills section">
       <img src="images/What-Does-a-Data-Analyst-Do.jpg" alt="Skills Photo" />
       <div class="text">
         <h2>Skills</h2>
-        <div class="skill-bar"><span style="width: 90%">Power BI - 90%</span></div>
-        <div class="skill-bar"><span style="width: 85%">SQL - 85%</span></div>
-        <div class="skill-bar"><span style="width: 80%">Excel - 80%</span></div>
-        <div class="skill-bar"><span style="width: 75%">Python - 75%</span></div>
-      </div>
-  
-<section id="skills" class="section">...</section>
-    <ul>
+        <div class="skill-bar"><span style="width: 90%;">Power BI - 90%</span></div>
+        <div class="skill-bar"><span style="width: 85%;">SQL - 85%</span></div>
+        <div class="skill-bar"><span style="width: 80%;">Python - 80%</span></div>
+        <div class="skill-bar"><span style="width: 70%;">Excel - 70%</span></div>
+
+        <div class="soft-skills">
+          <h3>Soft Skills</h3>
+          <ul>
       <li>Effective Communication – Clear and professional verbal and written communication.</li>
       <li>Team Collaboration – Strong ability to work with others towards a shared goal.</li>
       <li>Problem Solving – Analytical thinking to approach and solve challenges logically.</li>
@@ -60,12 +60,13 @@
       <li>Emotional Intelligence – Awareness of own and others’ emotions for productive interaction.</li>
       <li>Creativity – Thinking outside the box to develop innovative solutions.</li>
     </ul>
-  </div>
-</section>
+        </div>
+      </div>
+    </section>
 
 <section id="projects" class="section">...</section>
       <h2>Projects</h2>
-      <button onclick="window.open('dashboard.html', '_blank')">View Dashboard</button>
+      <button onclick="window.open('dashboard.html', '_blank')">View My Projects</button>
     </section>
 
 
@@ -74,45 +75,43 @@
   <h2>Certifications</h2>
       <div class="certificates-grid">
         <div class="certificate-card"><a href="https://www.coursera.org/account/accomplishments/records/DS73389LUQD4" target="_blank">Data, Data, Everywhere - Coursera</a></div>
-        <div class="certificate-card"><a href="https://www.coursera.org/account/accomplishments/records/DS73389LUQD4" target="_blank">Ask Questions to Make Data-Driven Decisions - Coursera</a></div>
-        <div class="certificate-card"><a href="images/kpmg cert.pdf" target="_blank">KPMG Forage Virtual Internship - Data Analytics</a></div>
-        <div class="certificate-card"><a href="images/pws.jpg" target="_blank">Power BI Virtual Internship - PWC Forage</a></div>
-        <div class="certificate-card"><a href="images/accenture.jpg" target="_blank">Data Analysis & Visualization - Accenture Forage</a></div>
-        <div class="certificate-card"><a href="https://certificates.dataleum.com/wp-content/uploads/2024/11/Attah-Chioma-Maureen.png" target="_blank">Excel, Power BI & SQL - Dataluem Academy</a></div>
-        <div class="certificate-card"><a href="images/bsc.jpg" target="_blank">Bachelor Of Science - University Of Nigeria Nsukka</a></div>
+        <div class="certificate-card"><a href="https://www.coursera.org/account/accomplishments/records/DS73389LUQD4" target="_blank"rel="noopener noreferrer">Ask Questions to Make Data-Driven Decisions - Coursera</a></div>
+        <div class="certificate-card"><a href="images/kpmg cert.pdf" target="_blank"rel="noopener noreferrer">KPMG Forage Virtual Internship - Data Analytics</a></div>
+        <div class="certificate-card"><a href="images/pws.jpg" target="_blank"rel="noopener noreferrer">Power BI Virtual Internship - PWC Forage</a></div>
+        <div class="certificate-card"><a href="images/accenture.jpg" target="_blank"rel="noopener noreferrer">Data Analysis & Visualization - Accenture Forage</a></div>
+        <div class="certificate-card"><a href="https://certificates.dataleum.com/wp-content/uploads/2024/11/Attah-Chioma-Maureen.png" target="_blank"rel="noopener noreferrer">Excel, Power BI & SQL - Dataluem Academy</a></div>
+        <div class="certificate-card"><a href="images/bsc.jpg" target="_blank"rel="noopener noreferrer">Bachelor Of Science - University Of Nigeria Nsukka</a></div>
     </div>
     </section>
 
-    <section id="cv"class="section">...</section>
-      <h2>My CV</h2>
-      <a href="images/Chioma Maureen Attahhh[1] data.pdf" target="_blank">Download My CV</a>
+    <section id="cv" class="cv section">
+      <h2>Curriculum Vitae</h2>
+      <a href="images/CV-Chioma-Maureen-Attah.pdf" target="_blank" rel="noopener noreferrer">Download My CV (PDF)</a>
     </section>
   </main>
 
-  <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-      <h2>Get In Touch</h2>
-      <p>Feel free to reach out for collaborations or inquiries:</p>
-      <ul>
-        <li>
-          <a href="mailto:maurreen.chioma@gmail.com" class="contact-button">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8l-192-160C303.5 24.31 288.8 16 272 16H80C35.88 16 0 51.88 0 96v320c0 44.13 35.88 80 80 80h352c44.13 0 80-35.88 80-80V208C512 203.2 508.8 195.7 502.3 190.8zM464 416c0 26.47-21.53 48-48 48H80c-26.47 0-48-21.53-48-48V96c0-26.47 21.53-48 48-48h176v104c0 13.25 10.75 24 24 24h184V416z"/></svg>
-            Email Me
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/chioma-attah-02642719a" class="contact-button" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.3 448H7.4V148.9h92.9zm-46.5-341C24.1 107 0 82.9 0 53.6S24.1 0 53.8 0s53.8 24.1 53.8 53.8-24.1 53.7-53.8 53.7zM447.9 448h-92.4V302.4c0-34.7-12.4-58.4-43.3-58.4-23.6 0-37.6 15.9-43.8 31.3-2.3 5.6-2.9 13.4-2.9 21.2V448h-92.4s1.2-271.9 0-299.1h92.4v42.4c12.3-19 34.3-46 83.5-46 60.9 0 106.5 39.8 106.5 125.3V448z"/></svg>
-            Connect on LinkedIn
-          </a>
-        </li>
-      </ul>
-    </section>
-  </main>
+   <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <ul>
+      <li>
+        <a href="mailto:chiomaattah9@gmail.com" class="contact-button" aria-label="Send email">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16v16H4z" fill="none"/><path d="M20 6l-8 5-8-5v10h16V6zM4 6l8 5 8-5H4z"/></svg>
+          Email
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/chioma-attah-02642719a" target="_blank" class="contact-button" aria-label="linkedin">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm5.36 15.64c-.37 1.11-2.04 2.11-3.64 2.32-2.03.29-4.27-.43-5.92-2.07-1.37-1.38-2.06-3.27-1.96-5.18.11-2.27 2.31-5.2 3.27-5.2.74 0 1.19.83 1.19 1.45 0 .38-.17.8-.17 1.22 0 .36.57 1.18.64 1.45.1.35.16.4.38.4.17 0 .39-.02.6-.02.56 0 1.09-.01 1.63-.01 1.27 0 1.37.9 1.37 1.88 0 1.05-.51 1.96-.79 2.53z"/></svg>
+          linkedin
+        </a>
+      </li>
+    </ul>
+  </section>
 
-  <footer>
-    <p>&copy; 2025 Chioma Maureen Attah. All Rights Reserved.</p>
+<footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
-
